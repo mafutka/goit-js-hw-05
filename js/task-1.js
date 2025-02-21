@@ -1,4 +1,4 @@
-const allUsers = [
+/* const allUsers = [
     {
         name: "Moore Hensley",
         email: "moorehensley@indexia.com",
@@ -48,3 +48,4 @@ return usersNamesArr;
 
 console.log(getUserNames(allUsers));
     
+ */
