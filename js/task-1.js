@@ -1,4 +1,4 @@
-/* const allUsers = [
+const wwwUsers = [
     {
         name: "Moore Hensley",
         email: "moorehensley@indexia.com",
@@ -46,6 +46,5 @@ return usersNamesArr;
 }
 
 
-console.log(getUserNames(allUsers));
+console.log(getUserNames(wwwUsers));
     
- */
