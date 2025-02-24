@@ -36,14 +36,7 @@ const wwwUsers = [
       },
 ];
 
-const getUserNames = (users) => {
-    const usersNamesArr = [];
-    users.forEach((user) => {
-    usersNamesArr.push(user.name);
-
-    })
-return usersNamesArr;
-}
+const getUserNames = (users) => users.map(user => user.name);
 
 
 console.log(getUserNames(wwwUsers));
